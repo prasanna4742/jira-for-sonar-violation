@@ -1,0 +1,45 @@
+{
+  "fields": {
+   "project": {
+        "id": "10571",
+        "key": "SOMEPROJ"
+    },
+    "summary": "SUMMARY-TMPL",
+    "issuetype": {
+        "id": "1",
+        "name": "Bug"
+    },
+    "labels": [
+        "SONARLabel"
+    ],
+    
+    "priority": {
+        "name": "P3 - Normal Queue",
+        "id": "4"
+    },
+    "customfield_1": {
+        "value": "3-Medium",
+        "id": "1"
+    },    
+    "customfield_2": {
+        "id": "2",
+        "child": {
+            "id": "2"
+        }
+    },
+    "customfield_3": [
+	{
+		"name": "9"
+	}
+    ],
+    "description": "DESC-TMPL",
+    "assignee": {
+        "name": "ASSIGNEE-TMPL",
+        "key": "ASSIGNEE-TMPL"
+    },
+    "reporter": {
+        "key": "reporteruser",
+        "name": "reporteruser"
+    }
+  }
+}
